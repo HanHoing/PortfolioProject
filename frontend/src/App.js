@@ -1,14 +1,31 @@
-import logo from './logo.svg';
-import './App.css';
+import React, { Component } from 'react';
+import './Main/assets/css/main.css';
+import './Main/assets/css/fontawesome-all.min.css';
+import './Main/assets/css/noscript.css';
 
-function App() {
-  return (
-    <div className="App">
-      <header className="App-header">
-       
-      </header>
-    </div>
-  );
+import Header from './components/Header';
+import Article from './components/Article';
+import Nav from './components/Nav';
+import Footer from './components/Footer';
+import Scripts from './components/Scripts';
+
+
+class App extends Component {
+  render() {
+    return (
+      <>
+        <Header></Header>
+        <div className="wrapper">
+          <Nav></Nav>
+          <div id="main">
+            <Article></Article>
+            <Footer></Footer>
+          </div>
+        </div>
+        <Scripts></Scripts>
+      </>
+    );
+  }
 }
 
 export default App;
