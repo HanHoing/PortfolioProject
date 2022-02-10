@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 
+import '../Main/assets/css/main.css';
 
 class Nav extends Component {
     render() {
       return (
         <>
-          <nav id="nav">
+          <nav id="nav" >
             <a href="#SJW" className="icon solid fa-home"><span>SJW</span></a>
             <a href="#IHY" className="icon solid fa-home"><span>IHY</span></a>
             <a href="#WHS" className="icon solid fa-home"><span>WHS</span></a>

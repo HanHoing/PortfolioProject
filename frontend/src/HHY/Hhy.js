@@ -148,7 +148,7 @@ class HHY extends Component {
                         <div className="divider-custom">
                         </div>
                         {/* Projects Grid Items*/}
-                        <div className="row justify-content-center mx-auto">
+                        <div className="text-center  row justify-content-center mx">
 
                             {/* Projects Item 1*/}
                             <hr/><h2 className=" text-center ">1. School Guide</h2> <hr/>
@@ -167,7 +167,7 @@ class HHY extends Component {
                                 <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
                                 <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
                             </Swiper>
-                            <div className="col-md-12 col-lg-12 mb-6">
+                            <div className="col-md-12 col-lg-12 mb-6 ">
                                 <div className="portfolio-item mx-auto" >
                                     <img className="img-fluid" src={EDIT} alt="..." />
                                 </div>
