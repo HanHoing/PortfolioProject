@@ -15,9 +15,7 @@ class Article extends Component {
               <h1>Son Ji Won</h1>
               <p>2022 Portfolio</p>
             </header>
-            <a href="https://github.com/Sonjiwon0" className="jumplink pic">
-  {/* 
-              <img src="./Main/images/sjw.png" alt="" /> */}
+            <a href="/sjw" className="jumplink pic">
               <img src={sjw} alt="" />
             </a>
           </article>
@@ -28,7 +26,7 @@ class Article extends Component {
               <h1>Lim Hae young</h1>
               <p>2022 Portfolio</p>
             </header>
-            <a href="https://github.com/haeyoungim" className="jumplink pic">
+            <a href="/ihy" className="jumplink pic">
   
               <img src={ihy} alt="" />
             </a>
@@ -40,7 +38,7 @@ class Article extends Component {
               <h1>Wi Hae Seo</h1>
               <p>2022 Portfolio</p>
             </header>
-            <a href="https://github.com/haeseo" className="jumplink pic">
+            <a href="/whs" className="jumplink pic">
   
               <img src={whs} alt="" />
             </a>
@@ -51,7 +49,7 @@ class Article extends Component {
               <h1>Han Sang Hui </h1>
               <p>2022 Portfolio</p>
             </header>
-            <a href="https://github.com/sshh0719" className="jumplink pic">
+            <a href="/hsh" className="jumplink pic">
   
               <img src={hsh} alt="" />
             </a>
@@ -62,7 +60,7 @@ class Article extends Component {
               <h1>Han Hye Young</h1>
               <p>2022 Portfolio</p>
             </header>
-            <a href="https://github.com/HanHoing" className="jumplink pic">
+            <a href="/hhy" className="jumplink pic">
   
               <img src={hhy} alt="" />
             </a>

@@ -1,28 +1,25 @@
 import React, { Component } from 'react';
-import './Main/assets/css/main.css';
-import './Main/assets/css/fontawesome-all.min.css';
-import './Main/assets/css/noscript.css';
+import './App.css';
 
-import Header from './components/Header';
-import Article from './components/Article';
-import Nav from './components/Nav';
-import Footer from './components/Footer';
-import Scripts from './components/Scripts';
+import Main from 'Main/Main';
+import { BrowserRouter, Route, Routes } from 'react-router-dom';
+import HHY from 'HHY/Hhy';
 
 
 class App extends Component {
   render() {
     return (
       <>
-        <Header></Header>
-        <div className="wrapper">
-          <Nav></Nav>
-          <div id="main">
-            <Article></Article>
-            <Footer></Footer>
-          </div>
-        </div>
-        <Scripts></Scripts>
+        <BrowserRouter>
+        <Routes>
+          <Route path="/" element={<Main  />}></Route>
+          {/* <Route path="/sjw" element={<SJW />}></Route>
+          <Route path="/ihy" element={<IHY />}></Route>
+          <Route path="/whs" element={<WHS />}></Route>
+          <Route path="/hsh" element={<HSH />}></Route> */}
+          <Route path="/hhy" element={<HHY />}></Route>
+        </Routes>
+      </BrowserRouter>
       </>
     );
   }
