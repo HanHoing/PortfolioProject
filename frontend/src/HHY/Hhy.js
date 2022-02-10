@@ -140,7 +140,7 @@ class HHY extends Component {
 
                 {/* ---------------------------------------------------------------- */}
                 {/* Projects Section*/}
-                <section className="page-section  " id="Projects">
+                <section className="page-section   " id="Projects">
                     <div className="container">
                         {/* Projects Section Heading*/}
                         <h2 className="page-section-heading text-center text-uppercase ">Projects</h2>
@@ -148,11 +148,12 @@ class HHY extends Component {
                         <div className="divider-custom">
                         </div>
                         {/* Projects Grid Items*/}
-                        <div className="row justify-content-center">
+                        <div className="row justify-content-center mx-auto">
 
                             {/* Projects Item 1*/}
-                            <hr/><h2 className=" text-center">1. School Guide</h2> <hr/>
-                            <Swiper
+                            <hr/><h2 className=" text-center ">1. School Guide</h2> <hr/>
+                            <Swiper 
+                            
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={40}
                                 slidesPerView={1}

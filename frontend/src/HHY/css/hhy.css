@@ -494,7 +494,7 @@ progress {
 }
 
 .about {
-  font-size: 1.25rem;
+  font-size: 1.5rem;
   font-weight: 1000;
 }
 
@@ -7820,6 +7820,11 @@ textarea.form-control-lg {
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
 }
 
+.bg-primary2 {
+  --bs-bg-opacity: 1;
+  background-color: rgba(var(--bs-white), var(--bs-bg-opacity)) !important;
+}
+
 .bg-secondary {
   --bs-bg-opacity: 1;
   background-color: rgba(var(--bs-primary-rgb), var(--bs-bg-opacity)) !important;
@@ -11467,6 +11472,8 @@ html {
     font-size: 1.5rem;
   }
 }
+
+
 .portfolio .portfolio-item {
   cursor: pointer;
   position: relative;
@@ -11475,6 +11482,7 @@ html {
   border-radius: 0.5rem;
   overflow: hidden;
 }
+
 
 .skills {
   position: absolute;

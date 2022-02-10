@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 
 
-class IHY extends Component {
+class HSH extends Component {
     render() {
       return (
         <>
@@ -11,4 +11,4 @@ class IHY extends Component {
     }
   }
 
-  export default IHY;
+  export default HSH;
