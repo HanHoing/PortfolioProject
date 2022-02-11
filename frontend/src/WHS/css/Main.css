@@ -145,7 +145,8 @@ input, select, textarea {
 
 	h2 {
 		font-size: 2em;
-		line-height: 1.5em;
+		/* line-height: 3em; 수정 원래 1.5 */
+		line-height: 3em;
 	}
 
 	h3 {
@@ -182,7 +183,8 @@ input, select, textarea {
 
 	hr {
 		border: 0;
-		border-bottom: solid 2px #f4f4f4;
+		/* border-bottom: solid 2px #f4f4f4; */
+		border-bottom: solid 2px #d8d8d8;
 		margin: 2.25em 0;
 	}
 
@@ -1764,7 +1766,8 @@ input, select, textarea {
 	header h2 + p {
 		font-size: 1.25em;
 		margin-top: -0.5em;
-		line-height: 1.5em;
+		/* line-height: 1.5em; */
+		line-height: 1.8em;
 	}
 
 	header h3 + p {
@@ -1787,10 +1790,15 @@ input, select, textarea {
 	}
 
 		header.major h2 + p {
-			color: #777;
-			font-size: 1.75em;
-			font-weight: 700;
-			margin-top: -0.75em;
+			/* color: #777; */
+			color: #959292;
+			/* 수정 원래 > font-size: 1.75em; */
+			font-size: 1.3em;
+			/* font-weight: 700; */
+			font-weight: bold;
+			/* margin-top: -0.75em; */
+			margin-top: -2em;
+
 		}
 
 /* Form */
@@ -2800,7 +2808,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						/* padding: 0.85em 0; */
+						padding: 0.85em 0;
 						text-decoration: none;
 					}
 
@@ -2823,7 +2831,7 @@ input, select, textarea {
 /* Main */
 
 	#main > section {
-		border-top: solid 6px #f4f4f4;
+		border-top: solid 6px #dad5d5;
 	}
 
 		#main > section > .container {
@@ -2839,7 +2847,7 @@ input, select, textarea {
 	#footer {
 		background: #fafafa;
 		border-top: 0;
-		color: #c0c0c0;
+		color: #a1a1a1;
 		overflow: hidden;
 		padding: 4em 0 2em 0;
 	}
