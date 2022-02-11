@@ -2197,7 +2197,8 @@ input, select, textarea {
 
 		.image.main {
 			display: block;
-			height: 20em;
+			/* height 수정 (배너 높이) 20>13*/
+			height: 13em;
 			border-radius: 0;
 		}
 
@@ -2799,7 +2800,7 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						/* padding: 0.85em 0; */
 						text-decoration: none;
 					}
 
