@@ -7,14 +7,17 @@ import pj01 from "./images/pj01.PNG";
 import pj02 from "./images/pj02.PNG";
 import mimoticon from "./images/mimoticon.jpg";
 
-import jqueryscrollex from './js/jquery.scrollex.min.js';
+
+
 
 
 class WHS extends Component {
   render() {
     return (
       <div>
-
+ <div class="image main" data-position="center">
+              <img src={banner} alt="" />
+            </div>
         {/* HEADER */}
         <section id="header">
           <header>
@@ -30,16 +33,22 @@ class WHS extends Component {
               <li><a href="#three">Contact</a></li>
             </ul>
           </nav>
+          <footer>
+            <ul class="icons">
+              <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+              <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+              <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+              <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
+              <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
+            </ul>
+          </footer>
         </section>
 
 
         {/* CONTENT */}
-        <div id="Content">
-
+        <div id="one">
+       
           <section id="Profile">
-            <div class="image main" data-position="center">
-              <img src={banner} alt="" />
-            </div>
             <div class="container">
               <header class="major">
                 <h2>Wi HaeSeo</h2>
@@ -54,11 +63,10 @@ class WHS extends Component {
           </section>
 
 
-          <section id="two">
+          <div id="two">
+          <section id="project">
             <div class="container">
               <h3>Project</h3>
-              <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-                Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
               <div class="features">
                 <article>
                   <a href="#" class="image"><img src={pj01} alt="" /></a>
@@ -77,13 +85,14 @@ class WHS extends Component {
               </div>
             </div>
           </section>
+          </div>
 
 
+          <div id="three">
           <section id="Contact">
             <div class="container">
               <h3>Contact Me</h3>
-              <p>Integer eu ante ornare amet commetus vestibulum blandit integer in curae ac faucibus integer non.
-                Adipiscing cubilia elementum integer. Integer eu ante ornare amet commetus.</p>
+              <p>아래로 연락 바랍니다.</p>
               <form method="post" action="#">
                 <div class="row gtr-uniform">
                   <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
@@ -102,41 +111,22 @@ class WHS extends Component {
               </form>
             </div>
           </section>
+          </div>
         </div>
 
 
 
         {/* FOOTER */}
         <section id="footer">
-          <footer>
-            <ul class="icons">
-              <li><a href="#" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
-              <li><a href="#" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
-              <li><a href="#" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
-              <li><a href="#" class="icon brands fa-github"><span class="label">Github</span></a></li>
-              <li><a href="#" class="icon solid fa-envelope"><span class="label">Email</span></a></li>
-            </ul>
-          </footer>
+        <footer>
           <div class="container">
             <ul class="copyright">
               <li>2022 포트폴리오</li>
-              <li>Design: <a href="http://html5up.net">HTML5 UP</a></li>
+              <li>위해서</li>
             </ul>
           </div>
+          </footer>
         </section>
-
-
-        {/* SCRIPTS */}
-        <section>
-			<script src="./scripts"></script>
-			<script src= {jqueryscrollex} />
-			<script src="./jquery.scrolly.min.js"></script>
-			<script src="./browser.min.js"></script>
-			<script src="./breakpoints.min.js"></script>
-			<script src="./util.js"></script>
-			<script src="./main.js"></script>
-            </section>
-
       </div>
 
 
