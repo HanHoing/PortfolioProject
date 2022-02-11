@@ -24,13 +24,15 @@ class WHS extends Component {
             <span class="image avatar"><img src={mimoticon} alt="" /></span>
             <h1 id="logo"><a href="#">Wi HaeSeo</a></h1>
             <p>안녕하세요.<br />
-              프론트엔드 개발자 위해서입니다.</p>
+              프론트엔드 개발자 위해서입니다.</p><br />
+              <p2>제 포트폴리오 페이지에 오신 걸 환영합니다&nbsp;☻</p2>
           </header>
           <nav id="nav">
             <ul>
               <li><a href="#one" class="active">Profile</a></li>
-              <li><a href="#two">Project</a></li>
-              <li><a href="#three">Contact</a></li>
+              <li><a href="#two">Skills</a></li>
+              <li><a href="#three">Project</a></li>
+              <li><a href="#four">Contact</a></li>
             </ul>
           </nav>
           <footer>
@@ -52,18 +54,37 @@ class WHS extends Component {
             <div class="container">
               <header class="major">
                 <h2>Wi HaeSeo</h2>
-                <p>Just an incredibly simple responsive site<br />
-                  template freebie by <a href="http://html5up.net">HTML5 UP</a>.</p>
+                <p>이름:&nbsp;위해서
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                연락처:010-3282-2410
+                  <br/>생년월일:1998.07.05
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                이메일:gotj999@naver.com
+                  <br/>주소지:경기도 
+                  &nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                깃허브:https://github.com/haeseo
+              
+                </p>
+                
               </header>
-              <p>Faucibus sed lobortis aliquam lorem blandit. Lorem eu nunc metus col. Commodo id in arcu ante lorem ipsum
-                sed accumsan erat praesent faucibus commodo ac mi lacus. Adipiscing mi ac commodo. Vis aliquet tortor
-                ultricies non ante erat nunc integer eu ante ornare amet commetus vestibulum blandit integer in curae ac
-                faucibus integer non. Adipiscing cubilia elementum.</p>
             </div>
+
           </section>
-
-
           <div id="two">
+       
+       <section id="Skills">
+         <div class="container">
+           <h3>Skills</h3>
+             
+        
+         </div>
+       </section>
+
+          <div id="three">
           <section id="project">
             <div class="container">
               <h3>Project</h3>
@@ -78,7 +99,7 @@ class WHS extends Component {
                 <article>
                   <a href="#" class="image"><img src={pj02} alt="" /></a>
                   <div class="inner">
-                    <h4>2차 프로젝트: MTW(멍트워크)</h4>
+                    <h4>2차 프로젝트: MTW(멍!트워크)</h4>
                     <p>- React, Node.js등을 이용하여 반려견 산책 커뮤니티 웹사이트 개발</p>
                   </div>
                 </article>
@@ -88,7 +109,7 @@ class WHS extends Component {
           </div>
 
 
-          <div id="three">
+          <div id="four">
           <section id="Contact">
             <div class="container">
               <h3>Contact Me</h3>
@@ -113,7 +134,8 @@ class WHS extends Component {
           </section>
           </div>
         </div>
-
+        </div>
+        
 
 
         {/* FOOTER */}
