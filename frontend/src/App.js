@@ -4,7 +4,7 @@ import './App.css';
 import Main from 'Main/Main';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HHY from 'HHY/Hhy';
-
+import HSH from 'HSH/Hsh';
 
 class App extends Component {
   render() {
@@ -15,8 +15,8 @@ class App extends Component {
           <Route path="/" element={<Main  />}></Route>
           {/* <Route path="/sjw" element={<SJW />}></Route>
           <Route path="/ihy" element={<IHY />}></Route>
-          <Route path="/whs" element={<WHS />}></Route>
-          <Route path="/hsh" element={<HSH />}></Route> */}
+          <Route path="/whs" element={<WHS />}></Route>*/}
+          <Route path="/hsh" element={<HSH />}></Route> 
           <Route path="/hhy" element={<HHY />}></Route>
         </Routes>
       </BrowserRouter>
