@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/Main.css';
-import './css/fontawesome-all.min.css';
+// import './css/fontawesome-all.min.css';
 
 import banner from "./images/banner.jpg";
 import pj01 from "./images/pj01.PNG";
@@ -15,9 +15,20 @@ class WHS extends Component {
   render() {
     return (
       <div>
- <div class="image main" data-position="center">
-              <img src={banner} alt="" />
-            </div>
+
+
+
+        {/* Banner */}
+        <head>
+          <title>WHS Portfolio</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+        </head>
+
+        <div class="image main" data-position="center">
+          <img src={banner} alt="" />
+        </div>
+
+
         {/* HEADER */}
         <section id="header">
           <header>
@@ -25,7 +36,7 @@ class WHS extends Component {
             <h1 id="logo"><a href="#">Wi HaeSeo</a></h1>
             <p>안녕하세요.<br />
               프론트엔드 개발자 위해서입니다.</p><br />
-              <p2>제 포트폴리오 페이지에 오신 걸 환영합니다&nbsp;☻</p2>
+            <p2>제 포트폴리오 페이지에 오신 걸 환영합니다&nbsp;☻</p2>
           </header>
           <nav id="nav">
             <ul>
@@ -47,108 +58,121 @@ class WHS extends Component {
         </section>
 
 
-        {/* CONTENT */}
-        <div id="one">
-       
-          <section id="Profile">
-            <div class="container">
-              <header class="major">
-                <h2>Wi HaeSeo</h2>
-                <p>이름:&nbsp;위해서
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                연락처:010-3282-2410
-                  <br/>생년월일:1998.07.05
-              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                이메일:gotj999@naver.com
-                  <br/>주소지:경기도 
-                  &nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                깃허브:https://github.com/haeseo
-              
-                </p>
-                
-              </header>
-            </div>
+        {/* <!-- Wrapper --> */}
+        <div id="wrapper">
 
-          </section>
-          <div id="two">
-       
-       <section id="Skills">
-         <div class="container">
-           <h3>Skills</h3>
-             
-        
-         </div>
-       </section>
+          {/* CONTENT */}
+          <div id="one">
 
-          <div id="three">
-          <section id="project">
-            <div class="container">
-              <h3>Project</h3>
-              <div class="features">
-                <article>
-                  <a href="#" class="image"><img src={pj01} alt="" /></a>
-                  <div class="inner">
-                    <h4>1차 프로젝트: KioKio</h4>
-                    <p>- JavaSwing을 이용한 카페 키오스크 프로그램 기능 구현</p>
+            <section id="Profile">
+              <div class="container">
+                <header class="major">
+                  <h2>Wi HaeSeo</h2>
+                  <p>이름:&nbsp;위해서
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    연락처:010-3282-2410
+                    <br />생년월일:1998.07.05
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;
+                    이메일:gotj999@naver.com
+                    <br />주소지:경기도
+                    
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    깃허브:https://github.com/haeseo
+
+                  </p>
+                  <hr class="one"></hr>
+                </header>
+              </div>
+            </section>
+
+
+            {/* Two */}
+            <div id="two">
+
+              <section id="Skills">
+                <div class="container">
+                  <h3>Skills</h3>
+                  <hr class="one"></hr>
+                </div>
+              </section>
+
+
+              {/* Three */}
+              <div id="three">
+
+                <section id="project">
+                  <div class="container">
+                    <h3>Project</h3>
+                    <div class="features">
+                      <article>
+                        <a href="#" class="image"><img src={pj01} alt="" /></a>
+                        <div class="inner">
+                          <h4>1차 프로젝트: KioKio</h4>
+                          <p>- JavaSwing을 이용한 카페 키오스크 프로그램 기능 구현</p>
+                        </div>
+                      </article>
+                      <article>
+                        <a href="#" class="image"><img src={pj02} alt="" /></a>
+                        <div class="inner">
+                          <h4>2차 프로젝트: MTW(멍!트워크)</h4>
+                          <p>- React, Node.js등을 이용하여 반려견 산책 커뮤니티 웹사이트 개발</p>
+                        </div>
+                        <hr class="one"></hr>
+                      </article>
+                    </div>
                   </div>
-                </article>
-                <article>
-                  <a href="#" class="image"><img src={pj02} alt="" /></a>
-                  <div class="inner">
-                    <h4>2차 프로젝트: MTW(멍!트워크)</h4>
-                    <p>- React, Node.js등을 이용하여 반려견 산책 커뮤니티 웹사이트 개발</p>
+                </section>
+              </div>
+
+
+              {/* Four */}
+              <div id="four">
+
+                <section id="Contact">
+                  <div class="container">
+                    <h3>Contact Me</h3>
+                    <p>아래로 연락 바랍니다.</p>
+                    <form method="post" action="#">
+                      <div class="row gtr-uniform">
+                        <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
+                        <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" />
+                        </div>
+                        <div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
+                        <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
+                        </div>
+                        <div class="col-12">
+                          <ul class="actions">
+                            <li><input type="submit" class="primary" value="Send Message" /></li>
+                            <li><input type="reset" value="Reset Form" /></li>
+                          </ul>
+                        </div>
+                      </div>
+                    </form>
                   </div>
-                </article>
+                </section>
               </div>
             </div>
-          </section>
           </div>
 
 
-          <div id="four">
-          <section id="Contact">
+
+          {/* FOOTER */}
+          <section id="footer">
+            
             <div class="container">
-              <h3>Contact Me</h3>
-              <p>아래로 연락 바랍니다.</p>
-              <form method="post" action="#">
-                <div class="row gtr-uniform">
-                  <div class="col-6 col-12-xsmall"><input type="text" name="name" id="name" placeholder="Name" /></div>
-                  <div class="col-6 col-12-xsmall"><input type="email" name="email" id="email" placeholder="Email" />
-                  </div>
-                  <div class="col-12"><input type="text" name="subject" id="subject" placeholder="Subject" /></div>
-                  <div class="col-12"><textarea name="message" id="message" placeholder="Message" rows="6"></textarea>
-                  </div>
-                  <div class="col-12">
-                    <ul class="actions">
-                      <li><input type="submit" class="primary" value="Send Message" /></li>
-                      <li><input type="reset" value="Reset Form" /></li>
-                    </ul>
-                  </div>
-                </div>
-              </form>
+              <ul class="copyright">
+                <li>2022 포트폴리오</li>
+                <li>위해서</li>
+              </ul>
             </div>
           </section>
-          </div>
         </div>
-        </div>
-        
-
-
-        {/* FOOTER */}
-        <section id="footer">
-        <footer>
-          <div class="container">
-            <ul class="copyright">
-              <li>2022 포트폴리오</li>
-              <li>위해서</li>
-            </ul>
-          </div>
-          </footer>
-        </section>
       </div>
 
 
