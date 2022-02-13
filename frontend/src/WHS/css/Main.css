@@ -2067,10 +2067,12 @@ input, select, textarea {
 			object-fit: cover;
 			display: block;
 			position: absolute;
-			top: 0;
+			top: -10%;
 			left: 0;
-			width: 100%;
-			height: 100%;
+			/*수정 width: 100%;*/
+			width: 77%;
+			/* 수정 height: 100%; */
+			height: 135%;
 		}
 
 		.image[data-position="top left"] img {
