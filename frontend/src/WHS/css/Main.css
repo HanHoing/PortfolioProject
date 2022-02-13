@@ -1799,7 +1799,50 @@ input, select, textarea {
 			/* margin-top: -0.75em; */
 			margin-top: -2em;
 
+
+
+
 		}
+
+
+
+		/*profile 추가*/
+		div.profile {
+			margin: 0 auto;
+			max-width: calc(100% - 4.5em);
+			width: 45em;
+			
+		
+		}
+	
+
+		div.profile p1{
+			margin:0 0 0em -20px;
+			font-weight: bold;
+			font-size: large;
+			width: 50%;
+			height: auto;
+			position:relative;
+			top: -50px;
+			float: left;
+			box-sizing: border-box;
+		
+		}
+
+		div.profile p2{
+			margin:0 0 0em 20x;
+			font-weight: bold; 
+			font-size: large;
+			width: 50%;
+			height: auto;
+			position:relative;
+			top: -50px;
+			float: right;
+			box-sizing: border-box;
+		}
+		
+
+		
 
 /* Form */
 
