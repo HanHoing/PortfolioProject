@@ -4,6 +4,7 @@ import './App.css';
 import Main from 'Main/Main';
 import { BrowserRouter, Route, Routes } from 'react-router-dom';
 import HHY from 'HHY/Hhy';
+import IHY from './IHY/ihy';
 
 
 class App extends Component {
@@ -17,6 +18,7 @@ class App extends Component {
           <Route path="/ihy" element={<IHY />}></Route>
           <Route path="/whs" element={<WHS />}></Route>
           <Route path="/hsh" element={<HSH />}></Route> */}
+          <Route path="/ihy" element={<IHY />}></Route>
           <Route path="/hhy" element={<HHY />}></Route>
         </Routes>
       </BrowserRouter>
