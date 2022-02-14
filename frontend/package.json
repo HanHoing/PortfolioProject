@@ -13,6 +13,7 @@
     "react-router-dom": "^6.2.1",
     "react-scripts": "5.0.0",
     "router": "^1.3.6",
+    "startbootstrap-freelancer": "^7.0.5",
     "swiper": "^8.0.3",
     "web-vitals": "^2.1.4"
   },
