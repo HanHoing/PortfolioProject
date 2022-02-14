@@ -11547,3 +11547,12 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.classcenter{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  align-items: center;
+  
+  justify-content: center;
+}
