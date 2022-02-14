@@ -1,5 +1,7 @@
 import React, { Component } from 'react';
 
+import IMG from "./img/2.png";
+import IMG2 from "./img/book.png";
 
 
 class SJW extends Component {
@@ -40,7 +42,7 @@ class SJW extends Component {
         <header className="masthead bg-primary text-white text-center">
           <div className="container d-flex align-items-center flex-column">
             {/* Masthead Avatar Image*/}
-            <img className="masthead-avatar mb-5" src="assets/img/2.png" alt="..." />
+            <img className="masthead-avatar mb-5" src={IMG} alt="..." />
             {/* Masthead Heading*/}
             <h1 className="masthead-heading text-uppercase mb-3">안녕하세요 !</h1>
             <h2 className="masthead-heading text-uppercase mb-3">손지원입니다.</h2>
@@ -73,7 +75,7 @@ class SJW extends Component {
                   <div className="portfolio-item-caption d-flex align-items-center justify-content-center h-100 w-100">
                     <div className="portfolio-item-caption-content text-center text-white"><i className="fas fa-plus fa-3x" /></div>
                   </div>
-                  <img className="img-fluid" src="assets/img/portfolio/book.png" alt="..." />
+                  <img className="img-fluid" src={IMG2} alt="..." />
                 </div>
               </div>
               {/* Portfolio Item 2*/}
