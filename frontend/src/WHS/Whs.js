@@ -7,6 +7,10 @@ import pj01 from "./images/pj01.PNG";
 import pj02 from "./images/pj02.PNG";
 import mimoticon from "./images/mimoticon.jpg";
 
+import front from "./images/front.png";
+import back from "./images/back.png";
+import spring from "./images/spring.png";
+import react from "./images/react.png";
 
 
 
@@ -33,7 +37,7 @@ class WHS extends Component {
         <section id="header">
           <header>
             <span class="image avatar"><img src={mimoticon} alt="" /></span>
-            <h1 id="logo"><a href="#">Wi HaeSeo</a></h1>
+            <h1 id="logo"><a href="#">위해서</a></h1>
             <p>안녕하세요.<br />
               프론트엔드 개발자 위해서입니다.</p><br />
             <p2>제 포트폴리오 페이지에 오신 걸 환영합니다&nbsp;☻</p2>
@@ -68,25 +72,17 @@ class WHS extends Component {
               <div class="container">
                 <header class="major">
                   <h2>Wi HaeSeo</h2>
-                  <p>이름:&nbsp;위해서
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    연락처:010-3282-2410
-                    <br />생년월일:1998.07.05
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;
-                    이메일:gotj999@naver.com
-                    <br />주소지:경기도
-                    
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-                    깃허브:https://github.com/haeseo
-
-                  </p>
-                  <hr class="one"></hr>
+                  <div class="profile"><p1>이름:&nbsp;위해서 
+                  <br />생년월일:&nbsp;1998.07.05
+                  <br />주소지:&nbsp;경기도 김포시
+                  </p1>
+                  </div>
+                  <div class="profile"><p2>연락처:&nbsp;010-3282-2410
+                  <br />이메일:&nbsp;gotj999@naver.com
+                  <br />깃허브:&nbsp;https://github.com/haeseo
+                  </p2>
+                  </div>
+                  {/*<hr class="one"></hr>*/}
                 </header>
               </div>
             </section>
@@ -98,6 +94,12 @@ class WHS extends Component {
               <section id="Skills">
                 <div class="container">
                   <h3>Skills</h3>
+                  
+                  <img src={front} className='front-image'></img>
+                  <img src={react} className='react-image'></img>
+                  <img src={back} className='back-image'></img>
+                  <img src={spring} className='spring-image'></img>
+                  
                   <hr class="one"></hr>
                 </div>
               </section>
