@@ -7,6 +7,10 @@ import pj01 from "./images/pj01.PNG";
 import pj02 from "./images/pj02.PNG";
 import mimoticon from "./images/mimoticon.jpg";
 
+import front from "./images/front.png";
+import back from "./images/back.png";
+import spring from "./images/spring.png";
+import react from "./images/react.png";
 
 
 
@@ -90,6 +94,12 @@ class WHS extends Component {
               <section id="Skills">
                 <div class="container">
                   <h3>Skills</h3>
+                  
+                  <img src={front} className='front-image'></img>
+                  <img src={react} className='react-image'></img>
+                  <img src={back} className='back-image'></img>
+                  <img src={spring} className='spring-image'></img>
+                  
                   <hr class="one"></hr>
                 </div>
               </section>

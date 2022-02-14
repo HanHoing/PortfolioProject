@@ -1842,6 +1842,29 @@ input, select, textarea {
 		}
 		
 
+		/* image */
+		
+		.front-image {
+			width:200px; 
+			height:100px;
+			/* margin-left: 50px;  */
+			margin-right: 50px; 
+		}
+		.back-image {
+			width:80px; 
+			height:100px;
+			margin-right: 60px; 
+		}
+		.spring-image {
+			width:100px; 
+			height:100px;
+			margin-right: 0px; 
+		}
+		.react-image {
+			width:110px; 
+			height:100px;
+			margin-right: 50px; 
+		}
 		
 
 /* Form */
