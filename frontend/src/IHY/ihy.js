@@ -16,7 +16,7 @@ class IHY extends Component {
          <About />
          <Skills />
          <Projects />
-         <Footer/> */}
+         <Footer/> /*/}
         </>
       );
     }
