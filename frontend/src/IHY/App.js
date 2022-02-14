@@ -1,25 +1,23 @@
-import React, { Component } from 'react';
+import React from 'react';
+import './ihy.css';
 import Header from './components/Header';
 import Home from './components/Home';
 import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
-import ".Ihy.css"
 
-class IHY extends Component {
-    render() {
-      return (
-        <>
-        {/* <Header/> 
+const IHY=()=> {
+  return (
+      <>
+        <Header/> 
          <Home />
          <About />
          <Skills />
          <Projects />
-         <Footer/> /*/}
-        </>
-      );
-    }
-  }
+         <Footer/>
+      </>
+  );
+}
 
-  export default IHY;
+export default IHY;
