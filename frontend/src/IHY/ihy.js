@@ -5,18 +5,18 @@ import About from './components/About';
 import Projects from './components/Projects';
 import Footer from './components/Footer';
 import Skills from './components/Skills';
-import ".Ihy.css"
+import "./Ihy.css"
 
 class IHY extends Component {
     render() {
       return (
         <>
-        {/* <Header/> 
+        <Header/> 
          <Home />
          <About />
          <Skills />
          <Projects />
-         <Footer/> /*/}
+         <Footer/> /
         </>
       );
     }
