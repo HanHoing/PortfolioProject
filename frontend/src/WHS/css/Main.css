@@ -1843,7 +1843,7 @@ input, select, textarea {
 		
 
 		/* image */
-		
+
 		.front-image {
 			width:200px; 
 			height:100px;
@@ -2876,7 +2876,8 @@ input, select, textarea {
 						border: 0;
 						color: #ffffff !important;
 						display: block;
-						padding: 0.85em 0;
+						padding: 0em 115px;
+						width: 7.9em;
 						text-decoration: none;
 					}
 
