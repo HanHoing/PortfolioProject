@@ -11,13 +11,21 @@ import HOING from "./assets/img/hoing.png";
 import HOING2 from "./assets/img/hoing2.png";
 
 import EDIT from "./assets/img/projects/edit.png";
-import PImage from "./assets/img/projects/projectImage.png";
 
 import BImage from "./assets/img/skills/Back-end.png";
 import CImage from "./assets/img/skills/certificate.png";
 import DImage from "./assets/img/skills/deployment.png";
 import FImage from "./assets/img/skills/front-end.png";
 import VImage from "./assets/img/skills/versioncontrol.png";
+
+import SGImage from "./assets/img/projects/schoolGuide1.png";
+import SDImage from "./assets/img/projects/smartDrive1.png";
+import SMImage1 from "./assets/img/projects/studentManagement1.png";
+import SMImage2 from "./assets/img/projects/studentManagement2.png";
+import MWImage1 from "./assets/img/projects/dogNW1.png";
+import MWImage2 from "./assets/img/projects/dogNW2.png";
+import MWImage3 from "./assets/img/projects/dogNW3.png";
+
 import './css/hhy.css';
 
 
@@ -152,8 +160,7 @@ class HHY extends Component {
 
                             {/* Projects Item 1*/}
                             <hr/><h2 className=" text-center ">1. School Guide</h2> 
-                            <Swiper 
-                            
+                            <Swiper className="swiper-container"
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={40}
                                 slidesPerView={1}
@@ -162,21 +169,18 @@ class HHY extends Component {
                                 scrollbar={{ draggable: true }}
                                 onSwiper={(swiper) => console.log(swiper)}
                                 onSlideChange={() => console.log('slide change')}>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
+                                <SwiperSlide>  <img src={SGImage} alt="..." width="100%" height="100%" />  </SwiperSlide>
                             </Swiper>
                             <div className="col-md-12 col-lg-12 mb-6 ">
                                 <div className="portfolio-item mx-auto" >
-                                    <img className="img-fluid" src={EDIT} alt="..." />
+                                    <img className="img-fluid" src={EDIT} alt="..."  width="100%" height="100%" />
                                 </div>
                             </div>
 
 
                             {/* Projects Item 2*/}
                             <hr/><h2 className=" text-center">2. Smart Drive</h2>
-                            <Swiper
+                            <Swiper className="swiper-container"
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
                                 slidesPerView={1}
@@ -185,21 +189,18 @@ class HHY extends Component {
                                 scrollbar={{ draggable: true }}
                                 onSwiper={(swiper) => console.log(swiper)}
                                 onSlideChange={() => console.log('slide change')}>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                           </Swiper>
+                                <SwiperSlide>  <img src={SDImage} alt="..."  width="100%" height="100%"/>  </SwiperSlide>
+                            </Swiper>
                             <div className="col-md-12 col-lg-12 mb-6">
                                 <div className="portfolio-item mx-auto" >
-                                    <img className="img-fluid" src={EDIT} alt="..." />
+                                    <img className="img-fluid" src={EDIT} alt="..."  width="100%" height="100%"  />
                                 </div>
                             </div>
 
 
                             {/* Projects Item 3*/}
                             <hr/> <h2 className=" text-center">3. Student Management</h2> 
-                            <Swiper
+                            <Swiper className="swiper-container"
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
                                 slidesPerView={1}
@@ -208,14 +209,13 @@ class HHY extends Component {
                                 scrollbar={{ draggable: true }}
                                 onSwiper={(swiper) => console.log(swiper)}
                                 onSlideChange={() => console.log('slide change')}>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
+                                <SwiperSlide>  <img src={SMImage1} alt="..." width="100%" height="100%"/>  </SwiperSlide>
+                                <SwiperSlide>  <img src={SMImage2} alt="..." width="100%" height="100%"/>  </SwiperSlide>
+                            
                             </Swiper>
                             <div className="col-md-12 col-lg-12 mb-6">
                                 <div className="portfolio-item mx-auto" >
-                                    <img className="img-fluid" src={EDIT} alt="..." />
+                                    <img className="img-fluid" src={EDIT} alt="..."  width="100%" height="100%" />
                                 </div>
                             </div>
 
@@ -231,14 +231,13 @@ class HHY extends Component {
                                 scrollbar={{ draggable: true }}
                                 onSwiper={(swiper) => console.log(swiper)}
                                 onSlideChange={() => console.log('slide change')}>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                                <SwiperSlide>  <img src={PImage} alt="..." />  </SwiperSlide>
-                           </Swiper>
+                                <SwiperSlide>  <img src={MWImage1} alt="..." width="100%" height="100%"/>  </SwiperSlide>
+                                <SwiperSlide>  <img src={MWImage2} alt="..." width="100%" height="100%"/>  </SwiperSlide>
+                                <SwiperSlide>  <img src={MWImage3} alt="..." width="100%" height="100%"/>  </SwiperSlide>
+                            </Swiper>
                             <div className="col-md-12 col-lg-12 mb-6">
                                 <div className="portfolio-item mx-auto" >
-                                    <img className="img-fluid" src={EDIT} alt="..." />
+                                    <img className="img-fluid" src={EDIT} alt="..."  width="100%" height="100%" />
                                 </div>
                             </div>
 
