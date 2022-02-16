@@ -11547,3 +11547,30 @@ html {
 .copyright {
   background-color: #1a252f;
 }
+
+.classcenter{
+  display: inline-block;
+  vertical-align: middle;
+  height: 100%;
+  align-items: center;
+  
+  justify-content: center;
+}
+.small1 {
+  margin-left: 20px;
+  width: 100px; 
+  padding : 10px;
+}
+
+.left-pp {
+  margin-left : 200px;
+}
+.left-pp2 {
+  margin-left : 50px;
+}
+.left-pp3 {
+  margin-left : 150px;
+}
+.left-pp4 {
+  margin-left : 240px;
+}
