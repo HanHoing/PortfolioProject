@@ -1,4 +1,4 @@
-import profilePiPicture from './images/me.jpg'
+import profilePiPicture from './images/me.png'
 import korail from './images/korail.png'
 import mung from './images/mung.png'
 import portfolio from './images/portfolio.png'

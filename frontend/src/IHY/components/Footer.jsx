@@ -9,7 +9,7 @@ const Footer = () => {
           <div className='contactfooter'>
 
             <h1 className='contact-title'><span>Contact</span></h1>
-            <hr className="light" />
+            {/* <hr className="light" /> */}
             <h1 className='contact-email'>
               <p>010-5439-3419</p>
               <p>younge1009@gmail.com</p>

@@ -8,7 +8,7 @@ const Skills = () => {
         <div className="col-12">
           <h1 className="display-4">Skills</h1>
         </div>
-        <hr />
+        {/* <hr /> */}
       </div>
       <div className="row text-center padding d-flex justify-content-around">
         {person.skills.map((skill, index) => {

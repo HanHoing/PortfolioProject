@@ -8,7 +8,7 @@ const Projects = () => {
         <div className="col-12">
           <h1 className="display-4">projects</h1>
         </div>
-        <hr />
+        {/* <hr /> */}
       </div>
       <div className="row">
         <div className="container-fluid padding">
