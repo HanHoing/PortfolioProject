@@ -8,7 +8,7 @@ const About = () => {
         <div className="col-12 text-center ">
           <h1 className="display-4 animated wow slideInLeft">About Me</h1>
         </div>
-        <hr />
+        {/* <hr /> */}
 
         <div className="col-xs-12 col-sm-12 col-md-4 padding">
           <figure className="figure">
