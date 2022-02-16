@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "react-slick": "^0.28.1",
     "react-typical": "^0.1.3"
   }
 }

@@ -151,7 +151,7 @@ class HHY extends Component {
                         <div className="text-center  row justify-content-center mx">
 
                             {/* Projects Item 1*/}
-                            <hr/><h2 className=" text-center ">1. School Guide</h2> <hr/>
+                            <hr/><h2 className=" text-center ">1. School Guide</h2> 
                             <Swiper 
                             
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
@@ -175,7 +175,7 @@ class HHY extends Component {
 
 
                             {/* Projects Item 2*/}
-                            <hr/><h2 className=" text-center">2. Smart Drive</h2> <hr/>
+                            <hr/><h2 className=" text-center">2. Smart Drive</h2>
                             <Swiper
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
@@ -198,7 +198,7 @@ class HHY extends Component {
 
 
                             {/* Projects Item 3*/}
-                            <hr/> <h2 className=" text-center">3. Student Management</h2> <hr/>
+                            <hr/> <h2 className=" text-center">3. Student Management</h2> 
                             <Swiper
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
@@ -221,7 +221,7 @@ class HHY extends Component {
 
 
                              {/* Projects Item 4*/}
-                             <hr/>   <h2 className=" text-center">4. 멍!트워크</h2>  <hr/>
+                             <hr/>   <h2 className=" text-center">4. 멍!트워크</h2> 
                             <Swiper
                                 modules={[Navigation, Pagination, Scrollbar, A11y]}
                                 spaceBetween={50}
